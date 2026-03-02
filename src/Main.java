@@ -5,7 +5,7 @@ void main() {
     // 查看 IntelliJ IDEA 建议如何修正。
     IO.println(String.format(" swelcome!"));
 
-    for (int i = 1; i <= 5; i++) {
+    for (int i = 1; i <= 3; i++) {
         System.out.println("i = " + i);
     }
 
