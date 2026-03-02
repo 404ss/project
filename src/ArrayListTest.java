@@ -7,7 +7,7 @@ public class ArrayListTest {
         list.add("22");
         list.add("33");
         System.out.println(list);
-        System.out.println(list.get(0));
+        System.out.println(list.get(1));
         System.out.println(list.size());
 
         for (String str : list) {
