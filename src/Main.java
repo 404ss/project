@@ -6,9 +6,7 @@ void main() {
     IO.println(String.format(" swelcome!"));
 
     for (int i = 1; i <= 5; i++) {
-        //TIP 按 <shortcut actionId="Debug"/> 开始调试代码。我们已经设置了一个 <icon src="AllIcons.Debugger.Db_set_breakpoint"/> 断点
-        // 但您始终可以通过按 <shortcut actionId="ToggleLineBreakpoint"/> 添加更多断点。
-        IO.println("i = " + i);
+        System.out.println("i = " + i);
     }
 
 }
