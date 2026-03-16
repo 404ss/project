@@ -1,0 +1,25 @@
+ALTER TABLE user
+ADD COLUMN testcol INT;
+
+ALTER TABLE user
+MODIFY COLUMN testcol DATE;
+
+ALTER TABLE user
+CHANGE COLUMN testcol col DATE;
+
+ALTER TABLE user
+DROP COLUMN col;
+
+ALTER TABLE user
+ADD PRIMARY KEY (id);
+
+ALTER TABLE user
+ADD CONSTRAINT fk_username 
+FOREIGN KEY (username)
+REFERENCES user1(username);
+
+ALTER TABLE user
+RENAME TO user2;
+
+ALTER TABLE user2
+RENAME TO user;
